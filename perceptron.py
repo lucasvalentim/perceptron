@@ -27,7 +27,7 @@ class Perceptron(object):
         for i in range(len(X_treino)):
             n_epocas = 0
             
-            while(n_epocas < self.__max_epocas): 
+            while n_epocas < self.__max_epocas: 
                 u = self.__peso_do_vies * self.__vies
 
                 for j in range(len(self.__x_pesos)):
